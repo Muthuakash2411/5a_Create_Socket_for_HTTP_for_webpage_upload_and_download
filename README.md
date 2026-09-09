@@ -18,7 +18,7 @@ To write a PYTHON program for socket for HTTP for web page upload and download
 ## Program 
 
 ## ````index.html````
-````
+````html
 <html>
 <body>
 <h1>Hello from Server</h1>
@@ -28,7 +28,7 @@ To write a PYTHON program for socket for HTTP for web page upload and download
 
 
 ## `````server.py````
-````
+````python
 import socket
 
 s = socket.socket()
@@ -65,7 +65,7 @@ while True:
 
 ## ````client.py````
 
-````
+````python
 import socket
 
 s = socket.socket()
